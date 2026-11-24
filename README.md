@@ -22,7 +22,7 @@ was only claimed.
 ## How the program works
 
 `main.py` (Python 3.13 standard library only) copies the pre-rendered
-`entry.png` (1024×1024, 204,397 bytes) to `/output/entry.png` (or
+`entry.png` (1024×1024, 194,558 bytes) to `/output/entry.png` (or
 `$MAKEFUN_OUTPUT_DIR/entry.png`), then checks the copy's size matches
 the source. The image was rendered deterministically offline with
 Pillow; the program itself needs no network, no third-party libraries
